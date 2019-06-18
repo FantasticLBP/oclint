@@ -2,18 +2,10 @@
 
 [![Travis CI Status](https://api.travis-ci.org/oclint/oclint.svg?branch=master)](https://travis-ci.org/oclint/oclint) [![Coverage Status](https://coveralls.io/repos/github/oclint/oclint/badge.svg?branch=master)](https://coveralls.io/github/oclint/oclint?branch=master)
 
-OCLint is a static code analysis tool for improving quality and reducing defects
-by inspecting C, C++ and Objective-C code.
+OCLint 是一个代码静态分析工具，有了它可以帮助在 App 阶段开发完成后，对代码质量做个量化检测衡量。
 
-It looks for potential problems that aren't visible to compilers, for example:
+Github 官方的源代码存在问题，编译不通过，fork 了一份别人的代码。然后我写了一个脚本，如果你的工程是基于 Cocopod 的。那么你可以直接将脚本拖进你的工程里面，直接运行。在终端命令行执行 `./auto_Lint.sh`。如果不是基于 Cocopod 的那么需要稍加修改。
 
-* Possible bugs - empty if/else/try/catch/finally statements
-* Unused code - unused local variables and parameters
-* Complicated code - high cyclomatic complexity, NPath complexity and high NCSS
-* Redundant code - redundant if statement and useless parentheses
-* Code smells - long method and long parameter list
-* Bad practices - inverted logic and parameter reassignment
-* ...
 
-For more information, visit http://oclint.org
+<h3>Enjoy it.</h3>
 
